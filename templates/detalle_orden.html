@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ orden.nombre }}</title>
+</head>
+<body>
+    <h1>{{ orden.nombre }}</h1>
+    <p>{{ orden.codigo }}</p>
+    <p>Precio: {{ orden.precio }}</p>
+    <p>Fecha de Creación: {{ orden.fecha_creacion }}</p>
+    <a href="{% url 'editar_orden' orden.pk %}">Editar</a>
+    <a href="{% url 'lista_orden' %}">Volver a la lista</a>
+</body>
+</html>

@@ -1,8 +1,12 @@
 from decimal import Decimal, InvalidOperation
 import json
-from django.shortcuts import render, get_object_or_404, redirect
+##se le cambio de nombre al archivo django.py a ordenamiento
+from .ordenamiento import render, get_object_or_404, redirect
+
+
 from django.http.response import JsonResponse
 from django.views import View
+## no tenia modelos y no estaban importados, asi que se creo un modelo con el nombre de Ordenes
 from .models import Ordenes
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt

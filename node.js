@@ -11,7 +11,7 @@ async function crearOrden(req, res) {
     res.status(500).json({ mensaje: 'Error en el servidor' });
   }
 }
-
+//esta parte redunda o utiliza codigo que esta de mas
 // Obtener todas las órdenes
 async function obtenerTodasLasOrdenes(req, res) {
   try {
