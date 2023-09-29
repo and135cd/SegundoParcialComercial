@@ -1,0 +1,5 @@
+El modelo tiene los siguientes atributos: nombreCliente, total.
+Los 3 archivos tienen errores deliberados. Debe corregir solo uno y montarlo en un proyecto de su preferencia.
+Debe crearle rutas, modelo, controlador, vista, etc. Siempre y cuando corra correctamente.
+El requisito principal no es lo visual, si no lo funcional.
+No se permiten entregas fuera de plazo.
